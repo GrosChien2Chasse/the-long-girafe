@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheLongGirafe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./220113.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="box">
+        <div class="log">
+                <p>Infinite Girafe By ILikeGirafe</p> 
+                <p>Want More ? Me too but i don't have budget</p>
+                <br> <br> <br> <br> 
+                <p>A--A</p>
+                <p>.-./   #\.-.</p>
+                <p>'--;d    b;--'</p>
+                <p>\# \/  /</p>
+                <p>\'--'/</p>
+                <p>|==|</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+                <p>| #|</p>
+                <p>|# |</p>
+
+
+
+                
+        </div>
+    </div>
+
+
+    <script>
+
+    
+
+        function log() {
+             var logElem = document.querySelector(".log");
+
+             logElem.innerHTML += "<p>| #|</p>  <p>|# |</p> <p>| #|</p>  ";
+             
+
+        }
+
+
+        function log2() {
+             var logElem = document.querySelector(".log");
+
+             logElem.innerHTML += "<p>|\#|</p>  <p>|# |</p> <p>|/#|</p>  ";
+             
+
+        }
+
+
+
+        let oldValue = 0
+        let newValue = 0
+        window.addEventListener('scroll', (e) => {
+          newValue = window.pageYOffset;
+          if (oldValue < newValue) {
+            log();
+          } else if (oldValue > newValue) {
+            log2();
+          }
+          oldValue = newValue;
+        });
+
+
+    </script>
+</body>
+</html>
